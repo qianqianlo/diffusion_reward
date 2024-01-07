@@ -31,6 +31,11 @@ pip3 install torch==1.12.1+cu116 torchvision==0.13.1+cu116 --extra-index-url htt
 ```
 - Install mujoco210 and mujoco-py following instructions [here](https://github.com/openai/mujoco-py#install-mujoco).
 
+Other dependencies
+```bash
+pip install "cython<3"
+```
+
 - Install Adroit dependencies.
 ```bash
 cd env_dependencies
